@@ -44,6 +44,7 @@ height: 100%;
   color: white;
   border: none;
   padding: 10px 20px;
+  
 }
 .register-page .btn-primary:hover{
   background-color: #0e7ac2;
@@ -67,6 +68,67 @@ height: 100%;
   height: 100vh;
 }
 /* RegistrationPage.css */
+/* Register.css */
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-page {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-input {
+  height: 40px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  font-size: 14px;
+}
+
+.register-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
 
@@ -145,11 +207,32 @@ height: 100%;
 .inactive-icon{
   color: gray;
 }
-.switched-icons{
-  border: 1px solid rgba(0, 0, 0, 0.677);
-  border-radius: 5px;
-  padding: 10px 15px;
+.switched-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between the icons as needed */
 }
+
+.icon {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 50%;
+  padding: 15px; /* Adjust padding to control the size of the circle */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Adjust width and height to control the size of the circle */
+  height: 40px;
+  background-color: #f0f0f0; /* Background color for the icon */
+  color: #000; /* Text color inside the icon, if any */
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 /* antd icons */
 
 
@@ -216,3 +299,10 @@ height: 100%;
   margin-left: 20px;
 }
 /* navbar */
+/* .btn-primary{
+  width: 500px;
+} */
+
+.types{
+  width: 25px;
+}

@@ -1,0 +1,60 @@
+/* Register.css */
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-page {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}
+
+.ant-input {
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-size: 14px;
+}
+
+.register-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
