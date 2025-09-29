@@ -23,7 +23,7 @@ This Expense Tracker System is built using the MERN stack (MongoDB, Express.js, 
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/RiteshPatil2001/Weather-Forecasting-App-Using-Python.git
+    git clone https://github.com/hussainshaik26/EXPENSES-TRACKER-.git
     ```
 
 2. Navigate to the project folder: 
@@ -32,7 +32,7 @@ This Expense Tracker System is built using the MERN stack (MongoDB, Express.js, 
     ```
 
 3. Steps after Successful Project Cloning
-- Access MongoDB Atlas at [MongoDB Atlas](https://account.mongodb.com/account/login?nds=true&_ga=2.162256702.387327753.1704614871-609076620.1691575519).
+- Access MongoDB Atlas at [MongoDB Atlas]
 - Create a new MongoDB database within MongoDB Atlas.
 - Copy the URL associated with the created database.
 - Navigate to your project in the code editor.
@@ -64,12 +64,7 @@ This Expense Tracker System is built using the MERN stack (MongoDB, Express.js, 
 5. Open the anlystics page to view the graphical representation of transactions.
 
 
-## Screenshots
-![Expense1](https://github.com/RiteshPatil2001/Expense-Tracker-System-Using-React-MERN-Stack/assets/111746931/c86bd602-c146-4d17-b34b-ca3b723d82a6)
-![Expense2](https://github.com/RiteshPatil2001/Expense-Tracker-System-Using-React-MERN-Stack/assets/111746931/b8fc9eca-299f-4665-a1d3-269377ff81f9)
-![Expense3](https://github.com/RiteshPatil2001/Expense-Tracker-System-Using-React-MERN-Stack/assets/111746931/03011eab-3795-4f77-a036-ce10ec32161b)
 
 
 
-## About
-This Expense Tracker App was developed by Ritesh Patil. If you have any questions or concerns, feel free to contact us.
+
